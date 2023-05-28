@@ -1,0 +1,252 @@
+/* -------  General Styles ------- */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+section.alternate-background {
+  background-color: #14b9ac;
+  color: #fff;
+}
+
+main img {
+  width: 100%;
+}
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-item {
+  flex: 2;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 12px
+}
+.about-item {
+  flex: 1;
+  margin: 12px;
+}
+
+.ideas-item {
+  flex: 1;
+  margin: 12px;
+}
+
+.host-item {
+  flex: 1;
+  margin: 12px;
+}
+
+/* -------  Navigation ------- */
+
+header {
+  background-color: #0b7699;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+
+.logo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, cursive;
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+/* -------  Search Form ------- */
+form {
+  border: 2px solid #000000;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+form button {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+}
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* -------  Media Query ------- */
+
+@media all and (min-width: 480px) {
+
+  /* Header */
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 30px;
+    }
+  
+    .logo {
+      margin: 14px 0;
+      padding-top: 0;
+    }
+  
+    header nav {
+      margin-top: 30px;
+    }
+  
+  /* Form */
+    .desktop-form-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 0 8px;
+    }
+  
+    .form-group {
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      flex: 1;
+      align-self: center;
+    }
+  
+
+    .form-item {
+      flex: 1;
+      margin: 0;
+    }
+  
+    form button {
+      margin: 8px 0;
+    }
+  
+    .button-item {
+      flex: 1;
+    }
+  
+  /* About */
+    .desktop-about-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: space-evenly;
+    }
+  
+    .about-item {
+      flex: 1;
+      margin: 10px;
+    }
+
+    .double-item {
+      flex: 2;
+    }
+  
+  /* Ideas */
+    .desktop-ideas-group {
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+    }
+  
+    .ideas-item {
+      flex: 0 50%;
+      margin: 10px;
+    }
+  
+    .ideas h2 {
+      margin-bottom: 0px;
+    }
+  
+  /* Host */
+    .desktop-host-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    .host-item {
+      flex: 1;
+      margin: 10px;
+    }
+  }
