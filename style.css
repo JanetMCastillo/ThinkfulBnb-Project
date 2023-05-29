@@ -47,8 +47,8 @@ main img {
   justify-content: space-between;
 }
 .form-item {
-  flex: 2;
-  margin: 10px;
+  flex: 1;
+  margin: 12px 5px;
 }
 
 .item-double {
@@ -101,6 +101,7 @@ header nav ul li {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 20px;
   padding: 0 20px 0 0;
 }
 
@@ -112,8 +113,8 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 form {
   border: 2px solid #000000;
-  padding: 10px;
-  margin: 0 10px;
+  padding: 0 10px;
+  margin: 10px;
 }
 
 form label {
@@ -130,8 +131,9 @@ form button {
   background-color: #000000;
   border: none;
   color: #fff;
-  font-size: 24px;
-  padding: 15px;
+  font-size: 34px;
+  padding: 12px;
+  margin-top: 20px 10px 10px 10px;
   width: 100%;
 }
 
