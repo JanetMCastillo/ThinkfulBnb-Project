@@ -26,7 +26,7 @@ section {
 }
 
 section.alternate-background {
-  background-color: #00a699;
+  background-color: #ff385;
   color: #fff;
 }
 
@@ -72,13 +72,13 @@ main img {
 /* -------  Navigation ------- */
 
 header {
-  background-color: #ff385c;
+  background-color: #0c4d6b;
   padding: 20px 20px 0 20px;
   text-align: center;
 }
 
 .logo {
-  font-family: "Pangolin", cursive;
+  font-family: "Helvetica", cursive;
   font-size: 72px;
   color: #fff;
   text-align: center;
@@ -113,7 +113,7 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 
 form {
-  border: 2px solid #ff385c;
+  border: 2px solid #0c4d6b;
   margin: 0 10px;
   padding: 10px;
 }
@@ -129,7 +129,7 @@ form input {
 }
 
 form button {
-  background-color: #ff385c;
+  background-color: #0000;
   border: none;
   color: #fff;
   font-size: 34px;
@@ -141,7 +141,7 @@ form button {
 /* -------  Footer ------- */
 
 footer {
-  background-color: #ff385c;
+  background-color: #0c4d6b;
 }
 
 footer p {
