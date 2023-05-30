@@ -82,6 +82,7 @@ header {
   font-size: 72px;
   color: #fff;
   text-align: center;
+  display: flex;
 }
 
 header nav {
@@ -114,7 +115,7 @@ header nav ul li a:hover {
 
 form {
   border: 2px solid #0c4d6b;
-  margin: 0 10px;
+
   padding: 10px;
 }
 
@@ -122,19 +123,20 @@ form label {
   font-weight: bold;
 }
 
-form select,
-form input {
+form select, form input{
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
   width: 180px;
+
 }
 
 form button {
   background-color: #000000;
   border: none;
   color: #fff;
-  font-size: 34px;
-  padding: 12px;
-  margin-top: 20px 10px 10px 10px;
+  font-size: 24px;
+  padding: 15px;
   width: 100%;
 }
 
@@ -155,11 +157,12 @@ footer p {
 @media all and (min-width: 480px) {
 
 /* Header */
-  header {
+   header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 30px;
+    padding:15px;
   }
 
   .logo {
@@ -173,12 +176,12 @@ footer p {
 
 /* Form */
   .desktop-form-group {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: center;
-    padding: 0 8px;
+    justify-content: center;
+    padding:10px 10px 10px 10px;
   }
 
   .form-group {
